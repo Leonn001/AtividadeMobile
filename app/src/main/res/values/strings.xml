@@ -7,4 +7,19 @@
     <string name="settings">Settings</string>
     <string name="about">About</string>
     <string name="devs">Developers</string>
+    <string name="km_h_kilometers_per_hour">km/h (kilometers per hour)</string>
+    <string name="ms_s_meters_per_second">ms/s (meters per second)</string>
+    <string name="settings_screen">Settings screen</string>
+    <string name="speed_unit">Speed unit:</string>
+    <string name="geographic_coordinate_format">Geographic coordinate format:</string>
+    <string name="degrees">Degrees</string>
+    <string name="degree_minutes">Degree-Minutes</string>
+    <string name="degrees_minutes_seconds">Degrees-Minutes-Seconds</string>
+    <string name="map_orientation">Map Orientation:</string>
+    <string name="none">None</string>
+    <string name="north_up">North Up</string>
+    <string name="course_up">Course Up</string>
+    <string name="map_type">Map Type:</string>
+    <string name="vector">Vector</string>
+    <string name="satellite">Satellite</string>
 </resources>

@@ -8,4 +8,19 @@
     <string name="settings">Configurações</string>
     <string name="about">Sobre</string>
     <string name="devs">Desenvolvedores</string>
+    <string name="km_h_kilometers_per_hour">km/h (kilometers per hour)</string>
+    <string name="ms_s_meters_per_second">ms/s (meters per second)</string>
+    <string name="settings_screen">Tela de configurações</string>
+    <string name="speed_unit">Unidade de velocidade</string>
+    <string name="geographic_coordinate_format">Formato de coordenadas geográficas</string>
+    <string name="degrees">Graus</string>
+    <string name="degree_minutes">Graus-Minutos</string>
+    <string name="degrees_minutes_seconds">Graus-Minutos-Segundos</string>
+    <string name="map_orientation">Orientação do mapa</string>
+    <string name="none">Nenhuma</string>
+    <string name="north_up">Norte</string>
+    <string name="course_up">Curso</string>
+    <string name="map_type">Tipo do mapa</string>
+    <string name="vector">Vetorial</string>
+    <string name="satellite">Satélite</string>
 </resources>

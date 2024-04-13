@@ -21,14 +21,14 @@ public class MainActivity extends AppCompatActivity {
         sharebtn = findViewById(R.id.sharebtn);
         settingsbtn = findViewById(R.id.settingsbtn);
         sobrebtn = findViewById(R.id.aboutbtn);
-        onClickLeon(registerbtn);
-        onClickLeon(managebtn);
-        onClickLeon(sharebtn);
-        onClickLeon(settingsbtn);
-        onClickLeon(sobrebtn);
+        onClick(registerbtn);
+        onClick(managebtn);
+        onClick(sharebtn);
+        onClick(settingsbtn);
+        onClick(sobrebtn);
     }
 
-    public void onClickLeon (Button btn) {
+    public void onClick(Button btn) {
        if(btn==registerbtn) {
            btn.setOnClickListener(v->{
                Intent intent = new Intent(this, RegisterActivity.class);
