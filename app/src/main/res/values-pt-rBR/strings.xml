@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppTrilha</string>
+    <string name="home_screen">Tela Inicial</string>
+    <string name="register_trail">Registrar Trilha</string>
+    <string name="manage_trails">Gerenciar Trilhas</string>
+    <string name="share_trails">Compartilhar Trilhas</string>
+    <string name="settings">Configurações</string>
+    <string name="about">Sobre</string>
+    <string name="devs">Desenvolvedores</string>
+</resources>

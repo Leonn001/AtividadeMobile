@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AppTrilha</string>
+    <string name="home_screen">Home</string>
+    <string name="register_trail">Register Trail</string>
+    <string name="manage_trails">Manage Trails</string>
+    <string name="share_trails">Share Trails</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="devs">Developers</string>
+</resources>
