@@ -7,7 +7,7 @@
     tools:context=".SettingsActivity">
 
     <RadioGroup
-        android:id="@+id/radioGroup9"
+        android:id="@+id/speedunit"
         android:layout_width="374dp"
         android:layout_height="103dp"
         android:layout_marginStart="19dp"
@@ -19,13 +19,13 @@
         app:layout_constraintTop_toBottomOf="@+id/textView8">
 
         <RadioButton
-            android:id="@+id/radioButton4"
+            android:id="@+id/kmh"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/km_h_kilometers_per_hour" />
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/mss"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/ms_s_meters_per_second" />
@@ -56,7 +56,7 @@
         android:text="@string/settings_screen"
         android:textColor="#FFF"
         android:textSize="36sp"
-        app:layout_constraintBottom_toTopOf="@+id/radioGroup12"
+        app:layout_constraintBottom_toTopOf="@+id/maptype"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -67,7 +67,7 @@
         android:layout_marginStart="21dp"
         android:layout_marginBottom="27dp"
         android:text="@string/speed_unit"
-        app:layout_constraintBottom_toTopOf="@+id/radioGroup9"
+        app:layout_constraintBottom_toTopOf="@+id/speedunit"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar3" />
 
@@ -78,12 +78,12 @@
         android:layout_marginStart="16dp"
         android:layout_marginBottom="15dp"
         android:text="@string/geographic_coordinate_format"
-        app:layout_constraintBottom_toTopOf="@+id/radioGroup10"
+        app:layout_constraintBottom_toTopOf="@+id/geocoord"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup9" />
+        app:layout_constraintTop_toBottomOf="@+id/speedunit" />
 
     <RadioGroup
-        android:id="@+id/radioGroup10"
+        android:id="@+id/geocoord"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="20dp"
@@ -120,12 +120,12 @@
         android:layout_marginStart="16dp"
         android:layout_marginBottom="10dp"
         android:text="@string/map_orientation"
-        app:layout_constraintBottom_toTopOf="@+id/radioGroup11"
+        app:layout_constraintBottom_toTopOf="@+id/mapor"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup10" />
+        app:layout_constraintTop_toBottomOf="@+id/geocoord" />
 
     <RadioGroup
-        android:id="@+id/radioGroup11"
+        android:id="@+id/mapor"
         android:layout_width="375dp"
         android:layout_height="118dp"
         android:layout_marginStart="20dp"
@@ -162,12 +162,12 @@
         android:layout_marginStart="16dp"
         android:layout_marginBottom="9dp"
         android:text="@string/map_type"
-        app:layout_constraintBottom_toTopOf="@+id/radioGroup12"
+        app:layout_constraintBottom_toTopOf="@+id/maptype"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup11" />
+        app:layout_constraintTop_toBottomOf="@+id/mapor" />
 
     <RadioGroup
-        android:id="@+id/radioGroup12"
+        android:id="@+id/maptype"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="23dp"

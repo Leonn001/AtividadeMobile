@@ -23,4 +23,8 @@
     <string name="map_type">Tipo do mapa</string>
     <string name="vector">Vetorial</string>
     <string name="satellite">Satélite</string>
+    <string name="trail_name">Nome</string>
+    <string name="coord">Coordenadas</string>
+    <string name="length">Comprimento (km)</string>
+    <string name="time">Tempo Estimado</string>
 </resources>
